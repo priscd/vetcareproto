@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+.header{
+    padding: 10px;
+    background-color: #F6BA3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 40px;
+}
+
+.icons img{
+    height: 30px;
+    padding: 5px;
+}
+
+.pagetop{
+    background-image:  url("assets/pexels-snapwire-38867.jpg");
+    background-size: cover;
+    padding: 20px;
+    height: 80px;
+}
+
+.pagetop p{
+    background-color: rgba(255, 255, 255, 0.445);
+    width: fit-content;
+}
+ 
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+} 
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.opt1 a{
+    background-color: #F6BA3D;
+    width: 200px;
+    height: fit-content;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+#txt1{
+    padding: 30px 10px;
+}
+
+#txt2{
+    padding: 30px 10px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#txt3{
+    padding: 20px 10px;
+}
+
+.opt1{
+    display: flex;
+    flex-direction: row;
+    margin: 8px;
+}
+
+.opt1 img{
+    height: 85px;
+    width: 85px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#img2{
+    border-radius: 0px 10px 10px 0px;
+}
+
+#img_text{
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.514);
+    padding: 10px;
+    margin: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+.carousel{
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-top: 30px;
+}
+
+.images{
+    display: flex;
+    transform: translate(0);
+    transition: transform 0.25s;
+}
+
+.images img{
+    height: 250px;
+}
+
+.crs_button{
+    background-color: #ffffff69;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+#prev{
+    left: 5px;
+}
+
+#next{
+    right: 5px;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6BA3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu img{
+    height: 30px;
+}

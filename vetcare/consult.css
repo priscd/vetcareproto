@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding: 10px;
+    background-color: #F6BA3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#back{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-left: 5px;
+}
+
+#logo{
+    height: 40px;
+}
+
+.icons img{
+    height: 30px;
+    padding: 5px;
+}
+
+.content{
+    width: 100%;
+    overflow: hidden;
+    background-color:#f8cf75af;
+}
+
+.box{
+    width: 90%;
+    display: flex;
+    padding: 15px 10px;
+    box-shadow: 0px 5px 10px #dddddd;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box img{
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.vetInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.vetInfo p{
+    margin-bottom: 5px;
+}
+
+.vetName{
+    font-size: 20px;
+}
+
+.prices{
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.consBtn{
+    margin-top: auto;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #F6BA3D;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6BA3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu img{
+    height: 30px;
+}

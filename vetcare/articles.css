@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: Verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header{
+    padding: 10px;
+    background-color: #F6BA3D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo{
+    height: 40px;
+}
+
+.icons img{
+    height: 30px;
+    padding: 5px;
+}
+
+.carousel{
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.images{
+    display: flex;
+}
+
+.images img{
+    height: 200px;
+    width: 375px;
+}
+
+.crs_button{
+    background-color: #ffffff69;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+}
+
+#prev{
+    left: 5px;
+}
+
+#next{
+    right: 5px;
+}
+
+#title_txt{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 3%;
+}
+
+.artlist{
+    margin-bottom: 100px;
+}
+
+.box{
+    width: auto;
+    display: flex;
+    padding: 15px 10px;
+    box-shadow: 0px 5px 10px #dddddd;
+    margin-bottom: 10px;
+}
+
+.txtPrev{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.txtPrev p{
+    font-size: 13px;
+}
+
+#writer{
+    font-style: italic;
+    margin: 5px 0px 5px 0px;
+}
+
+.box img{
+    height: 100px;
+    width: 100px;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F6BA3D;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu img{
+    height: 30px;
+}
